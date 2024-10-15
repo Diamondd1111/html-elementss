@@ -1,3 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My First Web Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <style>
+          table.my-table {
+         border-collapse: collapse;
+       }
+
+
+       table.my-table th {
+         background-color: #54585d;
+         color: #ffffff;
+         font-weight: bold;
+         font-size: 13px;
+         border: 1px solid #54585d;
+       }
+
+
+       table.my-table td {
+         padding: 15px;
+       }
+     table.my-table td {
+       color: #636363;
+       border: 1px solid #383c3f;
+     }
+     table.my-table tr {
+       background-color: #63aaf5;
+     }
+     table.my-table tr:nth-child(odd) {
+       background-color: #ffffff;
+     }
+ 
+  </style>
+</head>
+
 <body>
     <h1>My First Web Page</h1> 
    <p>Clever content goes here</p>
@@ -15,15 +55,14 @@
      </div>
      
        
-     </div>
      <div><img src="https://picsum.photos/200/300"></div>
      <div>Pictures provided by <a href="https://picsum.photos" target="_blank">Lorem Picsum</a></div>
-     <div>This is how we use the <strong>strong</strong> tag</div>
-     <div>This is how we use the <em>em</em> tag</div>
-     <div>This is how we use the <strike>strike</strike> tag</div>
+     <div>This is how we use the <strong>strong</strong> tag.</div>
+     <div>This is how we use the <em>em</em> tag.</div>
+     <div>This is how we use the <strike>strike</strike> tag.</div>
      <div>These words are inside a div. <span style="background-color:yellow">These words are inside a span.</span></div>
      <div>
-      <table>
+      <table class="my-table">
         <tr>First Name</tr>
         <tr>Last Name</tr>
         <tr>Email Name</tr>
